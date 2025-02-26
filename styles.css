@@ -1,0 +1,29 @@
+/* General styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #0077cc;
+    margin-top: 50px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+}
+
+/* Add a simple container! */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: gray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
