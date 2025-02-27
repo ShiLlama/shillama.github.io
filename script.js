@@ -1,9 +1,15 @@
 function showSection(sectionId){
     //Hide all the sections
-    document.querySelectorAll('.content-section').forEach(section => {
-        section.classList.remove('active');
+    let section = document.getElementById(sectionId);
+    if(!section)
+    {
+        console.error("Section not find:", sectionId);
+        return;
+    }
+
+    document.querySelectorAll('.content-section').forEach(sec => {
+        sec.classList.remove('active');
     });
 
-    //Show the selected section
-    document.getElementById(sectionId).classList.add('active');
+    section.classList.add('active');
 }
