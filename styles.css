@@ -79,6 +79,7 @@ nav ul li a:hover {
 
 .project-card:hover {
     transform: translateY(-5px);
+    background: white;
 }
 
 /* Contact Section! */
@@ -106,5 +107,5 @@ nav ul li a:hover {
 }
 
 .social-links a:hover {
-    background:blue;
+    background:white;
 }
