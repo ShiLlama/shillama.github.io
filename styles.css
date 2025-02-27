@@ -80,3 +80,31 @@ nav ul li a:hover {
 .project-card:hover {
     transform: translateY(-5px);
 }
+
+/* Contact Section! */
+
+.contact-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    display: inline;
+    margin-right: 15px;
+    padding: 8px 12px;
+    background: #f5f5f5;
+    color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background:blue;
+}
