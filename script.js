@@ -12,27 +12,27 @@ function showSection(sectionId){
     });
 
     section.classList.add('active');
-
-    //Smooth page transitions
-
-    document.addEventListener("DOMContentLoaded", () => {
-        const body = document.body;
-        body.classList.add("fade");
-        setTimeout(() => body.classList.add("show"), 100);
-    });
-
-    //Dark mode
-
-    const toggle = document.getElementById("darkModeToggle");
-    const body = document.body;
-
-    //Load preference
-    if (localStorage.getItem("darkMode") === "enabled") {
-        body.classList.add("dark-mode");
-    }
-
-    toggle.addEventListener("click", () => {
-        body.classList.toggle("dark-mode");
-        localStorage.setItem("darkMode", body.classList.contains("dark-mode") ? "enabled" : "disabled");
-    });
 }
+
+  //Smooth page transitions
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const body = document.body;
+    body.classList.add("fade");
+    setTimeout(() => body.classList.add("show"), 100);
+});
+
+//Dark mode
+
+const toggle = document.getElementById("darkModeToggle");
+const body = document.body;
+
+//Load preference
+if (localStorage.getItem("darkMode") === "enabled") {
+    body.classList.add("dark-mode");
+}
+
+toggle.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
+    localStorage.setItem("darkMode", body.classList.contains("dark-mode") ? "enabled" : "disabled");
+});
