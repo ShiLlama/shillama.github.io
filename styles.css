@@ -121,3 +121,21 @@ nav ul li a:hover {
 .social-links a:hover {
     background:white;
 }
+
+/* Animations */
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade.show {
+    opacity: 1;
+}
+
+/* Dark mode */
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
