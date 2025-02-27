@@ -23,7 +23,7 @@ function showSection(sectionId){
 
     //Dark mode
 
-    const toggle = document.getElementById("darkMode");
+    const toggle = document.getElementById("darkModeToggle");
     const body = document.body;
 
     //Load preference
