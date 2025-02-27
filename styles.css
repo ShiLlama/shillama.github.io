@@ -12,6 +12,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.content-section {
+    display: none; /*Hide all sections initially*/
+}
+
+.content-section active {
+    display:block; /* Show only the active section */
+}
+
 h1 {
     color: #f5f5f5;
     margin-top: 50px;
