@@ -38,4 +38,4 @@ toggle.addEventListener("click", () => {
 });
 
 console.log("%cHello! If you find this, congrats!", "color: cyan; font-size: 20px; font-weight: bold;");
-console.log("Did I catch you off guard? Hehe ;) Now, get outta here!");
+console.log("If you are reading this, you're a goddamn nerd.");
