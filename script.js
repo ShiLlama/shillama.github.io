@@ -36,3 +36,6 @@ toggle.addEventListener("click", () => {
     body.classList.toggle("dark-mode");
     localStorage.setItem("darkMode", body.classList.contains("dark-mode") ? "enabled" : "disabled");
 });
+
+console.log("%cHello! If you find this, congrats!", "color: cyan; font-size: 20px; font-weight: bold;");
+console.log("Did I catch you off guard? Hehe ;) Now, get outta here!");
