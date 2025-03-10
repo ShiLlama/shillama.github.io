@@ -181,11 +181,3 @@ body.dark-mode {
     margin: 0;
     color: #00bcd4;
 }
-
-.timeline-item::before {
-    content: '*';
-    color: #00bcd4;
-    position: absolute;
-    left: -10px;
-    top: 0;
-}
